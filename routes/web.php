@@ -8,6 +8,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::view('/example-page', 'example-page');
+
 /**
  * ADMIN ROUTE
  */
