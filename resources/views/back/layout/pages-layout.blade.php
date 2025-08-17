@@ -718,8 +718,9 @@
 							</div>
 						</div>
 					</div>
-					<div class="pd-20 bg-white border-radius-4 box-shadow mb-30"></div>
-					@yield('content')
+					<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
+                        @yield('content')
+                    </div>
 				</div>
 				<div class="footer-wrap pd-20 mb-20 card-box">
 					DeskApp - Bootstrap 4 Admin Template By
